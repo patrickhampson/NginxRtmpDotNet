@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NginxRTMP", "NginxRTMP\NginxRTMP.csproj", "{87E856FB-99D2-476C-A770-24428D3ED094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NginxRtmpTest", "NginxRtmpTest\NginxRtmpTest.csproj", "{DAEC8A0A-8365-43A6-BF4F-24CE872CDE49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87E856FB-99D2-476C-A770-24428D3ED094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E856FB-99D2-476C-A770-24428D3ED094}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E856FB-99D2-476C-A770-24428D3ED094}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E856FB-99D2-476C-A770-24428D3ED094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAEC8A0A-8365-43A6-BF4F-24CE872CDE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAEC8A0A-8365-43A6-BF4F-24CE872CDE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAEC8A0A-8365-43A6-BF4F-24CE872CDE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAEC8A0A-8365-43A6-BF4F-24CE872CDE49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ED65F9E-B5DE-4245-BC42-08F1D8FB9612}
+	EndGlobalSection
+EndGlobal
