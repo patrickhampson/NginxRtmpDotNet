@@ -9,5 +9,7 @@ nuget:
 build:
   publish_nuget: true
   verbosity: minimal
+after_build:
+  dotnet pack
 artifacts:
   path: NginxRTMP/bin/Release/NginxRTMP.*.nupkg
