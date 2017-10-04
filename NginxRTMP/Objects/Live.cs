@@ -12,6 +12,6 @@ namespace NginxRTMP.Objects
         public int NClients { get; set; }
 
         [XmlElement("stream")]
-        public Stream Stream { get; set; }
+        public Stream[] Streams { get; set; }
     }
 }
