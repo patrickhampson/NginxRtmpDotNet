@@ -30,7 +30,7 @@ namespace NginxRTMP.Objects
         public long BwData { get; set; }*/
 
         [XmlElement("client")]
-        public Client[] Clients { get; set; }
+        public Client Client { get; set; }
 
         //meta
 

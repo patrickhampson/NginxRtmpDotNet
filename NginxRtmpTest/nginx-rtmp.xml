@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="stat.xsl" ?>
+<rtmp>
+<nginx_version>1.11.1</nginx_version>
+<nginx_rtmp_version>1.1.7.11-dev</nginx_rtmp_version>
+<compiler>gcc 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) </compiler>
+<built>May 30 2017 04:35:01</built>
+<pid>24980</pid>
+<uptime>2680866</uptime>
+<naccepted>101</naccepted>
+<bw_in>5720448</bw_in>
+<bytes_in>19679525858</bytes_in>
+<bw_out>1921296</bw_out>
+<bytes_out>6632774205</bytes_out>
+<server>
+<application>
+<name>live</name>
+<live>
+	<stream>
+		<name>asdf</name>
+		<time>20212</time><bw_in>6325968</bw_in>
+		<bytes_in>15020232</bytes_in>
+		<bw_out>1917240</bw_out>
+		<bytes_out>2396550</bytes_out>
+		<bw_audio>323872</bw_audio>
+		<bw_video>6002096</bw_video>
+		<bw_data>0</bw_data>
+		<client><id>426279</id><address>123.456.789.111</address><port>54299</port><time>20693</time><flashver>FMLE/3.0 (compatible; FMSc/1.0)</flashver><swfurl>rtmp://localhost/live</swfurl><bytes_in>15059579</bytes_in><bytes_out>523</bytes_out><dropped>0</dropped><avsync>20</avsync><timestamp>19086</timestamp><publishing/><active/></client>
+		<meta><video><width>1280</width><height>720</height><frame_rate>30.000</frame_rate><codec>H264</codec><profile>High</profile><compat>0</compat><level>3.1</level></video><audio><codec>AAC</codec><profile>LC</profile><channels>2</channels><sample_rate>44100</sample_rate></audio></meta>
+		<nclients>1</nclients>
+		<publishing/>
+		<active/>
+	</stream>
+	<nclients>1</nclients>
+</live>
+</application>
+<application>
+	<name>output</name>
+	<live>
+	<nclients>0</nclients>
+	</live>
+</application>
+</server>
+</rtmp>
